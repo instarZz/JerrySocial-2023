@@ -10,6 +10,7 @@ import { StoriesComponent } from './common/stories/stories.component';
 import { FeedsComponent } from './home/feeds/feeds.component';
 import { CreatePostComponent } from './create-post/create-post.component';
 import { MyClickToggleDirective } from './directive/my-click-toggle.directive';
+import { MessagesComponent } from './common/messages/messages.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { MyClickToggleDirective } from './directive/my-click-toggle.directive';
     FeedsComponent,
     CreatePostComponent,
     MyClickToggleDirective,
+    MessagesComponent,
   ],
   imports: [
     BrowserModule,
