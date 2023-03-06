@@ -1,9 +1,9 @@
-import { Directive, ElementRef, Input } from '@angular/core';
+import { Directive, ElementRef, Input, OnInit } from '@angular/core';
 
 @Directive({
   selector: '[myClickToggle]'
 })
-export class MyClickToggleDirective {
+export class MyClickToggleDirective implements OnInit {
   @Input('myClickToggle') targetId: any;
 
   constructor(private el: ElementRef) { }
