@@ -8,6 +8,8 @@ import { NavbarComponent } from './common/navbar/navbar.component';
 import { MenuComponent } from './common/menu/menu.component';
 import { StoriesComponent } from './common/stories/stories.component';
 import { FeedsComponent } from './home/feeds/feeds.component';
+import { CreatePostComponent } from './create-post/create-post.component';
+import { MyClickToggleDirective } from './directive/my-click-toggle.directive';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { FeedsComponent } from './home/feeds/feeds.component';
     NavbarComponent,
     MenuComponent,
     StoriesComponent,
-    FeedsComponent
+    FeedsComponent,
+    CreatePostComponent,
+    MyClickToggleDirective,
   ],
   imports: [
     BrowserModule,
