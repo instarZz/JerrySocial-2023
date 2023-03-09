@@ -49,9 +49,6 @@ input {
     border: 0;
 
 }
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap');
-
-
 
 *, *::before, *::after{
     margin: 0;
@@ -61,11 +58,4 @@ input {
     text-decoration: none;
     list-style: none;
     border: none;
-}
-
-body{
-    font-family: 'Poppins', sans-serif;
-    color: var(--color-dark);
-    background: var(--color-light);
-    overflow-x: hidden;
 }

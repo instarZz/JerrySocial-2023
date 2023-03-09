@@ -11,10 +11,13 @@ import { FeedsComponent } from './home/feeds/feeds.component';
 import { CreatePostComponent } from './create-post/create-post.component';
 import { MyClickToggleDirective } from './directive/my-click-toggle.directive';
 import { MessagesComponent } from './common/messages/messages.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    RegisterComponent,
     HomeComponent,
     NavbarComponent,
     MenuComponent,
@@ -23,6 +26,7 @@ import { MessagesComponent } from './common/messages/messages.component';
     CreatePostComponent,
     MyClickToggleDirective,
     MessagesComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
