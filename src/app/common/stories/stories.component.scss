@@ -19,6 +19,13 @@
             // background: red;
             position: relative;
             overflow: hidden;
+            background: url(../../../assets/images/story-2.jpg) no-repeat center center/cover;
+            transition: transform 0.3s ease-out;
+            
+            &:hover {
+                box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+                transform: scale(1.2);
+            }
 
             &::before{
                 content: "";
@@ -34,29 +41,6 @@
                 z-index: 2;
             }
 
-            &:nth-child(1){
-                background: url(../../../assets/images/story-1.jpg) no-repeat center center/cover;
-            }
-            &:nth-child(2){
-                background: url(../../../assets/images/story-2.jpg) no-repeat center center/cover;
-            }
-            &:nth-child(3){
-                background: url(../../../assets/images/story-3.jpg) no-repeat center center/cover;
-            }
-            &:nth-child(4){
-                background: url(../../../assets/images/story-4.jpg) no-repeat center center/cover;
-            }
-            &:nth-child(5){
-                background: url(../../../assets/images/story-5.jpg) no-repeat center center/cover;
-            }
-            &:nth-child(6){
-                background: url(../../../assets/images/story-6.jpg) no-repeat center center/cover;
-            }
-
-            &:hover {
-                box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-
-            }
         }
 
         .profile-picture{

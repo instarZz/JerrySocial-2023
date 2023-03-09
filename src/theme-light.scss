@@ -1,0 +1,9 @@
+$primary-color:  hsl(252, 75%, 60%);
+$secondary-color: hsl(252, 100%, 90%);
+$background-color: hsl(252, 30%, 95%);
+$text-color: hsl(252, 30%, 10%);
+
+body {
+    background-color: $background-color;
+    color: $text-color;
+}
